@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroimage from "../../public/heroimage.png";
+import heroimagenew from "../../public/heroimagenew.png";
 import herophone from "../../public/herophone.png";
 import googleplay from "../../public/googleplay.png";
 import appstore from "../../public/appstore.png";
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="relative ">
-        <Image src={heroimage} alt="" />
+        <Image src={heroimagenew} alt="" />
         <Image
           src={herophone}
           alt=""

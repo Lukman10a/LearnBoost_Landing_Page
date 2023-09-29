@@ -1,7 +1,7 @@
 import Image from "next/image";
-import right_arrow from "../../public/right_arrow.png";
-import left_arrow from "../../public/left_arrow.png";
-import learnboost_testimonial from "../../public/learnboost_testimonial.png";
+import slide_right from "../../public/slide_right.png";
+import slide_left from "../../public/slide_left.png";
+import learnboost_testimonial_new from "../../public/learnboost_testimonial_new.png";
 
 const Testimonial = () => {
   return (
@@ -17,8 +17,8 @@ const Testimonial = () => {
         </p>
       </div>
       <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-20 mt-20">
-        <Image src={learnboost_testimonial} alt="" />
-        <div className="bg-[#E8FFEA] space-y-20 p-12 h-full rounded-lg">
+        <Image src={learnboost_testimonial_new} alt="" />
+        <div className="bg-[#FFDDE1] space-y-20 p-12 h-full rounded-lg">
           <p>
             As a teacher, I&apos;ve noticed a remarkable improvement in my
             students&apos; enthusiasm for learning. The engaging lessons and
@@ -32,8 +32,8 @@ const Testimonial = () => {
               Primary School Teacher
             </p>
             <div className="flex items-center justify-center gap-5">
-              <Image src={left_arrow} alt="" />
-              <Image src={right_arrow} alt="" />
+              <Image src={slide_left} alt="" />
+              <Image src={slide_right} alt="" />
             </div>
           </div>
         </div>

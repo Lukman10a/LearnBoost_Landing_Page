@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import progressimg from "../../public/progressimg.png";
+import progressimgnew from "../../public/progressimgnew.png";
 import successicon from "../../public/successicon.png";
 import progressphonebuttom from "../../public/progressphonebuttom.png";
 import progressphonetop from "../../public/progressphonetop.png";
@@ -59,7 +59,7 @@ const Progress = () => {
         </div>
       </div>
       <div className="relative">
-        <Image src={progressimg} alt="" />
+        <Image src={progressimgnew} alt="" />
 
         <Image
           src={progressphonebuttom}

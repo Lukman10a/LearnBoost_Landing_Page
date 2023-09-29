@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import checkcircle from "../../public/check-circle.png";
+import checkcircle from "../../public/check-circle.svg";
 import { useState } from "react";
 
 const PRICING_DATA = [
@@ -79,7 +79,7 @@ const Pricing = () => {
                 <p>{data.cardDetail5}</p>
               </div>
             </div>
-            <button className="text-[#267D2F] w-full border border-[#267D2F] px-4 py-2 rounded-sm hover:bg-[#267D2F] hover:text-white transition duration-300">
+            <button className="text-[#DA251C] w-full border border-[#DA251C] px-4 py-2 rounded-sm hover:bg-[#DA251C] hover:text-white transition duration-300">
               Get 14 Days Free Trial
             </button>
           </div>

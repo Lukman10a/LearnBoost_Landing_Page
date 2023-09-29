@@ -1,5 +1,5 @@
 import Image from "next/image";
-import careerimg from "../../public/careerimg.png";
+import careerimgnew from "../../public/careerimgnew.png";
 import careerphone from "../../public/careerphone.png";
 import share from "../../public/share.png";
 import curicullum from "../../public/curicullum.png";
@@ -9,7 +9,7 @@ const Career = () => {
     <section className="bg-[#1F2029] pt-12 grid lg:grid-cols-2 lg:grid-rows-1 gap-10 px-7">
       <div className="relative">
         <Image
-          src={careerimg}
+          src={careerimgnew}
           alt=""
           className="order-last md:order-first md:self-end "
         />

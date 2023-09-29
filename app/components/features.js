@@ -1,21 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import expert from "../../public/expert.png";
-import learn from "../../public/learn.png";
+import expertnew from "../../public/expertnew.png";
+import learnnew from "../../public/learnnew.png";
 import support from "../../public/support.png";
 import { useState } from "react";
 
 const FEATURE_DATA = [
   {
     title: " Expert Instructors",
-    img: expert,
+    img: expertnew,
     subtitle:
       "Whether you want to dive into Mathematics, explore Creativity, boost your language proficiency, LearnBoost has got you covered.",
   },
   {
     title: "Learn  Anywhere",
-    img: learn,
+    img: learnnew,
     subtitle:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
   },

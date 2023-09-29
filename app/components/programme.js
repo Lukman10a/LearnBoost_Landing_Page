@@ -2,7 +2,7 @@ import React from "react";
 
 const Programme = () => {
   return (
-    <section className="bg-[#267D2F] py-20 text-white p-10 space-y-5">
+    <section className="bg-[#7061E2] py-20 text-white p-10 space-y-5">
       <div className="text-center mb-10">
         <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
           Join our Affiliate Program
